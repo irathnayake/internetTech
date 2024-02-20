@@ -3,7 +3,7 @@
     height: 300px;
     width: 300px;
     background-color: blue;
-    position: fixed;
+    position: relative;
     top: 10px;
     left: 10px; 
 
@@ -24,4 +24,13 @@ p{
     p{
         font-size: xx-large;
     }
+}
+#Box3{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 15, 15);
+    position: relative;
+    top: 10px;
+
 }
