@@ -1,0 +1,27 @@
+#Box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+
+}
+#Box2{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(87, 87, 87);
+    position: static;
+}
+
+p{
+    background-color: rgb(128, 128, 18);
+}
+
+@media screen and (max-width:480px) {
+    p{
+        font-size: xx-large;
+    }
+}
